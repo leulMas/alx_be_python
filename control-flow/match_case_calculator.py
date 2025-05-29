@@ -4,15 +4,19 @@ opp = input("Choose the operation (+, -, *, /): ")
 
 match opp:
     case "+":
-        print(f"The result is {num1 + num2}")
+        result = num1 + num2
+        print("The result is", result)
     case "*":
-        print(f"The result is {num1 * num2}")
+        result = num1 * num2
+        print("The result is", result )
     case "-":
-        print(f"The result is {num1 - num2}")
+        result = num1 - num2
+        print("The result is", result )
     case "/":
         if num2 == 0:
-            print("cannot divide by zero")
+            print("cannot divide by zero5")
         else:
-            print(f"The result is {num1 / num2}")
+            result = num1 / num2
+            print("The result is", result)
     case _:
         print("you have entered a wrong operator")
