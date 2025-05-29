@@ -14,7 +14,7 @@ match opp:
         print(f"The result is {result}")
     case "/":
         if num2 == 0:
-            print("cannot divide by zeros")
+            print("Cannot divide by zero")
         else:
             result = num1 / num2
             print(f"The result is {result}")
